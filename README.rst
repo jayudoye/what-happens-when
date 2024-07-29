@@ -81,6 +81,7 @@ After processing the request and running the necessary code, the application ser
 This rendering process converts the raw response data into a visually and functionally rich user interface, providing the end user with a seamless and interactive experience. For other types of clients, rendering might involve parsing JSON or XML data and displaying it in a relevant format, such as a mobile app interface or a desktop application.
 
 Summary
+https://miro.medium.com/v2/resize:fit:720/format:webp/1*QT1gUOM0BrOi9uZiAIOLjA.jpeg
 
 To sum it all up, when you type “https://google.com" and hit enter, your browser first checks its cache for Google’s IP address. If not found, it queries the DNS system to obtain the IP address. Once the IP is obtained, the browser initiates a TCP connection using a three-way handshake (SYN, SYN-ACK, ACK). If a TCP connection is established, the client creates an HTTPS request which passes through firewalls for security checks before reaching Google’s load balancer, which distributes the request to a web server. The web server processes the request, possibly forwarding it to an application server for dynamic content and database interaction. The web server then creates an HTTPS response and sends it back to your browser, and the Google homepage is displayed.
 
